@@ -1,6 +1,6 @@
 import React from 'react';
 
-const (Tweet) = () => {
+const Tweet = () => {
     return (
         <div>
             <h2>Name</h2>
