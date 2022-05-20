@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <CreateTweet />
-      <TweetList />
+      <TweetList name={name} message={message} />
     </div>
   );
 }

@@ -2,12 +2,12 @@ import React from 'react';
 // Import Components
 import Tweet from "./Tweet";
 
-const TweetList = () => {
+const TweetList = ({ name, message }) => {
     return (
         <div className="tweet-list">
-            <Tweet />
-            <Tweet />
-            <Tweet />
+            <Tweet name={name} message={message} />
+            <Tweet name={name} message={message} />
+            <Tweet name={name} message={message} />
         </div>
     )
 }
