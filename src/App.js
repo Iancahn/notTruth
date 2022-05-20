@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import TweetList from "./components/TweetList";
 import CreateTweet from "./components/CreateTweet";
 
 function App() {
-  //Adding some variables
-  const name = "Ian the awesome";
-  const message = "This is the actual tweet content"
+  const [name, setName] = useState("Ian");
+  const message = "Hello";
 
   return (
     <div className="App">
