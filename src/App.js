@@ -7,7 +7,6 @@ function App() {
   const [name, setName] = useState("Ian");
   const [textInput, setTextInput] = useState("");
   const [tweets, setTweets] = useState([]);
-  const message = "Hello";
 
   return (
     <div className="App">
@@ -15,7 +14,7 @@ function App() {
         setTextInput={setTextInput}
         tweets={tweets}
         setTweets={setTweets} />
-      <TweetList name={name} tweets={tweets} />
+      <TweetList name={name} tweets={tweets} setTweet={setTweets} />
     </div>
   );
 }
