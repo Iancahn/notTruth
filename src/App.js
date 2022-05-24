@@ -14,7 +14,7 @@ function App() {
         setTextInput={setTextInput}
         tweets={tweets}
         setTweets={setTweets} />
-      <TweetList name={name} tweets={tweets} setTweet={setTweets} />
+      <TweetList name={name} tweets={tweets} setTweets={setTweets} />
     </div>
   );
 }
